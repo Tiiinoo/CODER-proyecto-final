@@ -15,8 +15,7 @@
 .howImI {
   height: auto;
   min-height: 420px;
-  background-image: $background-color;
-  border-radius: 1rem;
+  @include background-style;
     h3 {
       text-align: center;
       padding-top: 15px;
@@ -55,9 +54,8 @@
   width: 20%;
   display: inline-block;
   height: 150px;
-  background-image: $background-color;
-  border-radius: 1rem;
   text-align: center;
+  @include background-style;
 
   @media only screen and (min-width: 577px) and (max-width:768px) {
     width: 40%;

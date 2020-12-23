@@ -11,3 +11,8 @@ $menus-font: 'Lato', sans-serif;
   text-decoration: none;
   color: $text-color;  
 }
+
+@mixin background-style {
+  border-radius: 1rem;
+  background-image: $background-color;  
+}

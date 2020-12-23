@@ -3,9 +3,8 @@
   display: flex;
 }
 #contactForm {
-  background-image: $background-color;
   padding: 1rem 2.5rem 0.2rem 2.5rem;
-  border-radius: 1rem;
+  @include background-style;
   font-weight: bolder;
   width: auto;
   margin: auto;

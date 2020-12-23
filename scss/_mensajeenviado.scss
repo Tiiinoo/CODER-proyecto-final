@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 440px;
+  min-height: 435px;
     @media only screen and (min-width: 769px) and (max-width:992px) {
       min-height: 750px;
     }
@@ -29,9 +29,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-image: $background-color;
   padding: 1.5rem 2.5rem 2rem 2.5rem;
-  border-radius: 1rem;
+  @include background-style;
   font-weight: bolder;
   animation-name: mensaje;
   animation-iteration-count: 10;

@@ -1,6 +1,40 @@
-#menuViewer, #extraContent, #navMenuSection, #principalSelection {
-  margin: 0 !important;
+#pageMain {
+  min-height: 430px;
+  margin-bottom: 5px;
+}
+#navMenuSection {
+  margin-left: 30px;
+  min-height: 420px;
+  padding: 20px 10px 0px 10px;
+  @include background-style;
+  
+  .navMenuSectionTitle {
+    text-align: center;
+  }
+  
+  .navMenuSectionSubTitle {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
 }
 #principalSelection {
-  background-image: $background-color;
+  margin-left: 50px;
+  padding: 20px 10px 15px 25px;
+  @include background-style;
+}
+#extraContent {
+  margin-left: 50px;
+  padding: 20px 15px 15px 20px;
+  @include background-style;
+  width: auto;
+
+  li {
+    margin-left: 15px;
+  }
+}
+#footer-pages {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
 }

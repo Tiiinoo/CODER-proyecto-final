@@ -61,114 +61,124 @@
         </div>
       </header>
     </div>
-    <main id="pageMain">  
-      <div id="menuViewer">      
-        <nav id="navMenuSection">
-          <h4 class="navMenuSectionTitle">Blockchains</h4>
-          <H5 class=navMenuSectionSubTitle>¿Qué es Bitcoin?</H5>
-          <div id="accordion" role="tablist">
-            <div class="card">
-              <div class="card-header" role="tab" id="headingOne">
-                <h6 class="mb-0">
-                  <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Software (Red Bitcoin)
-                  </a>
-                </h6>
-              </div>             
-            </div>
-            <div class="card">
-              <div class="card-header" role="tab" id="headingTwo">
-                <h6 class="mb-0">
-                  <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Una moneda (BTC)
-                  </a>
-                </h6>
-              </div>              
-            </div>
-            <H5 class="navMenuSectionSubTitle">¿Qué es Ethereum?</H5>
-            <div class="card">
-              <div class="card-header" role="tab" id="headingTree">
-                <h6 class="mb-0">
-                  <a class="collapsed" data-toggle="collapse" href="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
-                    Software (EVM)
-                  </a>
-                </h6>
-              </div>              
-            </div>
-            <div class="card">
-              <div class="card-header" role="tab" id="headingFour">
-                <h6 class="mb-0">
-                  <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                    Un token (ETH)
-                  </a>
-                </h6>
+    <main id="pageMain"> 
+      <div class="container-fluid">
+        <div class="row">            
+          <div class="col-lg-9" id="menuViewer">
+            <div class="row">              
+              <div class= "col-lg-3" id="navMenuSection">
+                <h4 class="navMenuSectionTitle">Blockchains</h4>
+                <H5 class=navMenuSectionSubTitle>¿Qué es Bitcoin?</H5>
+                <div id="accordion" role="tablist">
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingOne">
+                      <h6 class="mb-0">
+                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Software (Red Bitcoin)
+                        </a>
+                      </h6>
+                    </div>             
+                  </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingTwo">
+                      <h6 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Una moneda (BTC)
+                        </a>
+                      </h6>
+                    </div>              
+                  </div>
+                  <H5 class="navMenuSectionSubTitle">¿Qué es Ethereum?</H5>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingTree">
+                      <h6 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
+                          Software (EVM)
+                        </a>
+                      </h6>
+                    </div>              
+                  </div>
+                  <div class="card">
+                    <div class="card-header" role="tab" id="headingFour">
+                      <h6 class="mb-0">
+                        <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                          Un token (ETH)
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
+                </div>            
+              </div>
+              <div class="col-lg-8" id="principalSelection">
+              <h4>Contenido seleccionado</h4>
+              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                <div class="card-body">
+                    <h6>Software (Red Bitcoin)</h6>
+                    <p>Una blockchain o cadena de bloques, en la cual cada bloque está intimamente
+                      relacionado con el anterior mediante un número que para ser obtenido requiere de un poder
+                      computacional enorme y dónde cada bloque solo puede estar unido al que lo precede y al próximo.
+                      Estos bloques contienen un gran número de transacciones verificables e irreversibles, siendo 
+                      la primera la creación de un nuevo Bitcoin
+                    </p>
+                  </div>  
+                </div>
+                <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="card-body">
+                    <h6>Una moneda (BTC)</h6>
+                    <p>Objeto de todas las transacciones contenidas en cada bloque de la Blockchain. Una de sus 
+                      principales características es la escasez. No habrá más de 21 millones de Bitcoins, por lo 
+                      tanto será deflacionaria.
+                    </p>
+                  </div>
+                </div>
+                <div id="collapseTree" class="collapse" role="tabpanel" aria-labelledby="headingTree">
+                  <div class="card-body">
+                    <h6>Software (EVM)</h6>
+                    <p>EVM son las iniciales de Ethereum Virtual Machine, refleja el objetivo principal de su 
+                    creador "ser la computadora del mundo". Ethereum es una blockchain, la segunda en importancia,
+                    que buscó tener mayor funcionalidad que Bitcoin, creando el concepto de "Smart Contracts".
+                    Mediante un leguaje de programación creado al efecto, Solidity, un desarrollador puede crear
+                    una dApp, aplicación descentralizada, y montarla encima de la red. Esto da lugar infinidad de
+                    aplicaciones descentralizadas, sin otro dueño que quienes participan en ella. El principal uso
+                    se dio en el mundo financiero, dando nacimiento a DeFi, ecosistema de finanzas 
+                    descentralizadas.
+                  </p>
+                  </div>
+                </div>
+                <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="card-body">
+                    <h6>Un token (ETH)</h6>
+                    <p>ETH es la moneda nativa de la blockchain de Ethereum. Su objetivo principal es ser cancelar
+                      el fee que cuesta cada transacción en la red, que se lo denomina Gas. A fin de evitar el "spam"
+                      cada transacción que se realice en la red, y ocupe memoria o sea guardada en la blockchain,
+                      tiene un costo y este se paga con ETH. Con el tiempo la usabilidad del token creció junto a su
+                      precio.
+                    </p>
+                  </div>  
+                </div>
               </div>
             </div>
-          </div>            
-        </nav>
-        <section id="principalSelection">
-          <h4>Contenido seleccionado</h4>
-          <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-            <div class="card-body">
-            <h6>Software (Red Bitcoin)</h6>
-            <p>Una blockchain o cadena de bloques, en la cual cada bloque está intimamente
-            relacionado con el anterior mediante un número que para ser obtenido requiere de un poder
-            computacional enorme y dónde cada bloque solo puede estar unido al que lo precede y al próximo.
-            Estos bloques contienen un gran número de transacciones verificables e irreversibles, siendo 
-            la primera la creación de un nuevo Bitcoin</p>
-            </div>
           </div>
-          <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-            <div class="card-body">
-              <h6>Una moneda (BTC)</h6>
-              <p>Objeto de todas las transacciones contenidas en cada bloque de la Blockchain. Una de sus 
-              principales características es la escasez. No habrá más de 21 millones de Bitcoins, por lo 
-              tanto será deflacionaria.</p>
-            </div>
+          <div class="col-lg-2" id="extraContent">
+            <h4>Contenido extra</h4>
+            <ul>
+              <!-- Cada una de estas opciones desplegará un menú con opciones que derivará a un link externo-->
+              <li>Videos</li>
+              <li>Documentos</li>
+              <li>Articulos</li>
+              <li>Aplicaciones</li>
+              <li>Páginas oficiales</li>
+              <li>Grupos de Telegram</li>
+              <li>etc..</li>
+            </ul>
           </div>
-          <div id="collapseTree" class="collapse" role="tabpanel" aria-labelledby="headingTree">
-            <div class="card-body">
-              <h6>Software (EVM)</h6>
-              <p>EVM son las iniciales de Ethereum Virtual Machine, refleja el objetivo principal de su 
-              creador "ser la computadora del mundo". Ethereum es una blockchain, la segunda en importancia,
-              que buscó tener mayor funcionalidad que Bitcoin, creando el concepto de "Smart Contracts".
-              Mediante un leguaje de programación creado al efecto, Solidity, un desarrollador puede crear
-              una dApp, aplicación descentralizada, y montarla encima de la red. Esto da lugar infinidad de
-              aplicaciones descentralizadas, sin otro dueño que quienes participan en ella. El principal uso
-              se dio en el mundo financiero, dando nacimiento a DeFi, ecosistema de finanzas 
-              descentralizadas.</p>
-            </div>
-          </div>
-          <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-            <div class="card-body">
-              <h6>Un token (ETH)</h6>
-              <p>ETH es la moneda nativa de la blockchain de Ethereum. Su objetivo principal es ser cancelar
-              el fee que cuesta cada transacción en la red, que se lo denomina Gas. A fin de evitar el "spam"
-              cada transacción que se realice en la red, y ocupe memoria o sea guardada en la blockchain,
-              tiene un costo y este se paga con ETH. Con el tiempo la usabilidad del token creció junto a su
-              precio.</p>
-            </div>
-          </div>
-        </section>
-      </div>
-      <nav id="extraContent">
-        <h4>Contenido extra</h4>
-        <ul>
-          <!-- Cada una de estas opciones desplegará un menú con opciones que derivará a un link externo-->
-          <li>Videos</li>
-          <li>Documentos</li>
-          <li>Articulos</li>
-          <li>Aplicaciones</li>
-          <li>Páginas oficiales</li>
-          <li>Grupos de Telegram</li>
-          <li>etc..</li>
-        </ul>
-      </nav>
+        </div>    
+      </div>      
     </main>    
     <div class="container divFooter">
       <div class="row footerRow">
         <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
-          <footer class="footer" >&copy; Copyright 2020 - Martín Azpiroz - Coderhouse &reg; Camada 10755 
+          <footer id="footer-pages">&copy; Copyright 2020 - Martín Azpiroz - Coderhouse &reg; Camada 10755 
             <a href="../pages/contacto.html">Contacto</a>
           </footer>
         </div>  
