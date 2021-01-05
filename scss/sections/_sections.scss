@@ -27,10 +27,30 @@
   padding: 20px 15px 15px 20px;
   @include background-style;
   width: auto;
+}
+.btn-secondary {
+  background-color: inherit;
+  border: none;
+  padding-top: 1rem;
 
-  li {
-    margin-left: 15px;
+  &:hover {
+    background-color: inherit;
+    @include scale;
   }
+}
+.dropdown-menu {
+  border-radius: 1rem;
+
+  &:hover {
+    @include scale-extra;
+  }
+}
+.dropdown-item {
+  border-radius: 1rem;
+
+  &:hover {
+    @include scale-extra;
+  }  
 }
 #footer-pages {
   margin-top: 0px !important;
