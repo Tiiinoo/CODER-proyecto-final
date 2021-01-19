@@ -3,18 +3,27 @@
   padding: 1px;
 }
 body {
-    background-image: $background-image;
+    background-image: $blockchain-image;
+    background-color: $background-color;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
-    overflow-x: hidden;
-    color: $text-color;
+    ///overflow-x: hidden;
+    //color: $text-color;
     font-family: $general-font;
 }
 h1 {
+  color:$text-color;
   font-weight: bolder;
+  border: solid 1px $text-color;
   font-family: $titles-font;
-  text-align: center;
+  padding: 10px;
+  text-align: left;//center;
+  display: inline-block; //agregué para lograr la nueva disposición de la página
+}
+#indexHeader {
+  margin-top: 30px;
 }
 a {
   text-decoration: none;
@@ -41,6 +50,7 @@ a {
   font-family: $menus-font;
 }
 footer {
+  color: $text-color;
   padding: 5px 0px 0px 0px;
   font-size: 1rem;
   text-align: center;
