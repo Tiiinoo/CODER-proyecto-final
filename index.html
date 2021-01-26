@@ -35,10 +35,10 @@
           <div class="col-lg-4 offset-lg-4 text-center homeImage">
             <img src="images/WelcomeToTheBlockchainn.jpg" alt="Traffic sign that says Welcome to the Blockchain, entering a new economy."> 
           </div> 
-          <nav class="col-lg-8 offset-lg-2 navMenu">          
+          <nav class="col-lg-8 offset-lg-2 navMenuHome">          
             <ul class="nav justify-content-center">
               <li class="nav-item">
-                <a class="nav-link active" href="#header">Home</a>
+                <a class="nav-link active" href="#indexBody">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#aboutMe">About me</a>
@@ -266,7 +266,7 @@
                 <nav class="col-lg-10 offset-md-1 navMenuBlockchain">          
                   <ul class="nav justify-content-center">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#header">Home</a>
+                      <a class="nav-link active" href="#indexBody">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#aboutMe">About me</a>
@@ -518,55 +518,63 @@
         </div>    
       </div>
       <div class="container-fluid" id="defi">
-        <div class="row">
-          <div class="leftMenu col-lg-5"> 
+        <div class="row">              
+          <div class="col-lg-5" id="leftMenuDefi">
             <div class="row">
-              <div class="col-lg-6"> 
-                <h4 class="navMenuSectionTitle">DeFi</h4>
-                <H5 class=navMenuSectionSubTitle>Características</H5>
-                <div id="accordion" role="tablist">
-                  <div class="card">
-                    <div class="card-header" role="tab" id="headingOne">
-                      <h6 class="mb-0">
-                        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          ¿Qué es DeFi?
-                        </a>
-                      </h6>
-                    </div>             
-                  </div>
-                  <div class="card">
-                    <div class="card-header" role="tab" id="headingTwo">
-                      <h6 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          DeFi en Ethereum
-                        </a>
-                      </h6>
-                    </div>              
-                  </div>
-                  <H5 class="navMenuSectionSubTitle">Cómo participo</H5>
-                  <div class="card">
-                    <div class="card-header" role="tab" id="headingTree">
-                      <h6 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseTree" aria-expanded="false" aria-controls="collapseTree">
-                          Primeros pasos
-                        </a>
-                      </h6>
-                    </div>              
-                  </div>
-                  <div class="card">
-                    <div class="card-header" role="tab" id="headingFour">
-                      <h6 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          ¿Qué tener en cuenta?
-                        </a>
-                      </h6>
-                    </div>
-                  </div>
-                </div>            
-              </div>          
-              <div class="extraContent col-lg-6">
+              <div class="col-lg-6">
+                <div class="col-lg-8 offset-lg-2">
+                  <h3>DeFi</h3>
+                </div>
+              </div>
+              <div class="row">
+                <nav class="col-lg-10 offset-md-1 optionsDefi">          
+                  <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#whatsDefi">¿Qué es DeFi?</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#defiOnEth">DeFi en Ethereum</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#firstSteps">Primeros pasos</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#wathToWacht">¿Qué tener en cuenta?</a>
+                    </li>
+                  </ul>                              
+                </nav>
+              </div>
+              <div class="row">
+                <nav class="col-lg-10 offset-md-1 navMenuDefi">          
+                  <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aboutMe">About me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#tecnologia">Tecnología</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#blockchain">Blockchain</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#aplicaciones">Aplicaciones</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#defi">DeFi</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                  </ul>                              
+                </nav>
+              </div>  
+            </div>
+          </div>
+              <!--<div class="extraContent col-lg-6">
                 <h4>Contenido extra</h4>
-                <!-- Cada una de estas opciones desplegará un menú con opciones que derivará a un link externo-->
                 <div class="dropdown">
                   <button class="btn btn-secondary dropdown-toggle"
                           type="button" id="dropdownMenu1" data-toggle="dropdown"
@@ -636,61 +644,25 @@
                 </div>
               </div> 
             </div>
-          </div>
-          <div class="rightMenu col-lg-7">
-            <div class="principalSelection col-lg-12">
+          </div>-->
+          <div class="col-lg-7 h-100" id="rightMenuDefi">
+            <div class="col-lg-10 offset-lg-1" id="defiInformation">
               <h4>Contenido seleccionado</h4>
-              <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
-                <div class="card-body">
+              <div class="col-lg-12" id="whatsDefi">
                   <h6>¿Qué es DeFi?</h6>
-                  <p>DeFi es el acrónimo de Finanzas Descentralizadas. Es un ecosistema son aplicaciones similares
-                    al mundo de las finanzas tradicionales y nuevas funcionalidades propias del desarrollo de 
-                    blockchain. Las principales características son la descentralización, la falta de regulaciones,
-                    la inexistensia de barreras de entrada, la posibilidad de operar con montos pequeños y la ausencia
-                    de prohibiciones. Es un ecosistema nuevo, en crecimiento, que está atrayendo grandes capitales
-                    por su versatilidad y la posibilidad de permanecer anónimo, detrás de una billetera.
-                  </p>
-                </div>
+                  <p>DeFi es el acrónimo de Finanzas Descentralizadas. Es un ecosistema son aplicaciones similares al mundo de las finanzas tradicionales y nuevas funcionalidades propias del desarrollo de blockchain. Las principales características son la descentralización, la falta de regulaciones, la inexistensia de barreras de entrada, la posibilidad de operar con montos pequeños y la ausencia de prohibiciones. Es un ecosistema nuevo, en crecimiento, que está atrayendo grandes capitales por su versatilidad y la posibilidad de permanecer anónimo, detrás de una billetera.</p>
               </div>
-              <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
-                <div class="card-body">
+              <div class="col-lg-12" id="defiOnEth">
                   <h6>Defi en Ethereum</h6>
-                  <p>Este escosistema nació dentro del desarrollo de la red de Ethereum, dónde cuenta con el número 
-                    mayor de adopción, desarrollo e inversión. Por medio de Smart Contracts, se programan aplicaciones
-                    que permiten emular instituciones financieras sin la necesidad de validaciones de terceros, KYC,
-                    prohibiciones y discriminaciones de cualquier tipo. Las reglas se fijan mediante código y son 
-                    irreversibles y verificables por cualquier usuario. Existen aplicaciones que emulan plazos fijos,
-                    exchanges descentralizados, DEXs, dónde los usuarios proveen liquidez, a cambio de un retorno,
-                    para que otros usuarios puedan comprar y vender cryptomonedas o pedir créditos, pagando un
-                    porcentaje que da la posibilidad de generar el retorno, plataformas de seguros y derivados. Las
-                    posibilidades son infinitas.
-                  </p>
-                </div>
+                  <p>Este escosistema nació dentro del desarrollo de la red de Ethereum, dónde cuenta con el número mayor de adopción, desarrollo e inversión. Por medio de Smart Contracts, se programan aplicaciones que permiten emular instituciones financieras sin la necesidad de validaciones de terceros, KYC, prohibiciones y discriminaciones de cualquier tipo. Las reglas se fijan mediante código y son irreversibles y verificables por cualquier usuario. Existen aplicaciones que emulan plazos fijos, exchanges descentralizados, DEXs, dónde los usuarios proveen liquidez, a cambio de un retorno, para que otros usuarios puedan comprar y vender cryptomonedas o pedir créditos, pagando un porcentaje que da la posibilidad de generar el retorno, plataformas de seguros y derivados. Las posibilidades son infinitas.</p>
               </div>
-              <div id="collapseTree" class="collapse" role="tabpanel" aria-labelledby="headingTree">
-                <div class="card-body">
+              <div class="col-lg-12" id="firstSteps">
                   <h6>Primeros pasos</h6>
-                  <p>Para participar de este mundo, es necesario contar con una billetera, tener fondos, un poco de ETH
-                    para costear el gas y estudiar aplicaciones o protocolos que nos atraigan. La gran innovación de 
-                    DeFi es la custodia de los fondos, estos siempre se mantienen en nuestra billetera y desde allí
-                    interactuan con el smart contract siguiendo las reglas determinadas en su código. En la práctica
-                    existen dos maneras de interactuar con en DeFi, algunas billeteras cuentan con un browser integrado
-                    desde el cual se accede a las dApps con las que queramos operar. La segunda forma es ingresar a la
-                    web del protocolo y desde allí conectar nuestra billetera, habilitar el acceso a nuestros fondos y
-                    podemos comenzar a generar retornos.
-                  </p>
-                </div>
+                  <p>Para participar de este mundo, es necesario contar con una billetera, tener fondos, un poco de ETH para costear el gas y estudiar aplicaciones o protocolos que nos atraigan. La gran innovación de DeFi es la custodia de los fondos, estos siempre se mantienen en nuestra billetera y desde allí interactuan con el smart contract siguiendo las reglas determinadas en su código. En la práctica existen dos maneras de interactuar con en DeFi, algunas billeteras cuentan con un browser integrado desde el cual se accede a las dApps con las que queramos operar. La segunda forma es ingresar a la web del protocolo y desde allí conectar nuestra billetera, habilitar el acceso a nuestros fondos y podemos comenzar a generar retornos.</p>
               </div>
-              <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
-                <div class="card-body">
+              <div class="col-lg-12" id="wathToWacht">
                   <h6>¿Qué debo tener en cuenta?</h6>
-                  <p>DeFi es un ecosistema con dos caras, la libertad de ser el dueño de tu dinero, en DeFi no 
-                    existen prohibiciones unilaterales, barreras de entrada, historia de crédito ni tarifas 
-                    prohibitivas. Pero involucrarse implica una gran responsabilidad, sin regulaciones debemos 
-                    estar muy seguros de lo que hacemos porque cada error es irreversible. 
-                    Si el balance entre estas dos caras es positivo, bienvenido.
-                  </p>
-                </div>
+                  <p>DeFi es un ecosistema con dos caras, la libertad de ser el dueño de tu dinero, en DeFi no existen prohibiciones unilaterales, barreras de entrada, historia de crédito ni tarifas prohibitivas. Pero involucrarse implica una gran responsabilidad, sin regulaciones debemos estar muy seguros de lo que hacemos porque cada error es irreversible. Si el balance entre estas dos caras es positivo, bienvenido.</p>
               </div>
             </div>
           </div>  

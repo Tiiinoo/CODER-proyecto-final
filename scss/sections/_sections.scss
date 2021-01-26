@@ -7,13 +7,15 @@
   @include grey-background;
   max-height: 640px;
   overflow: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .navMenuTecnologia,.optionsTecnologia{
   a {
   color: $dark-color;
   &:hover {
     color: $dark-color;
-  }
+    }
   }
 }
 #leftMenuBlockchain {
@@ -24,12 +26,14 @@
   @include red-background;
   max-height: 640px;
   overflow: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .navMenuBlockchain,.optionsBlockchain{
   a {
-  color: $text-color;
+  color: $light-color;
     &:hover {
-      color: $text-color;
+      color: $light-color;
     }
   }
 }
@@ -41,73 +45,33 @@
   @include white-background;
   max-height: 640px;
   overflow: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .navMenuAplicaciones, .optionsAplicaciones{
   a {
-    color: $text-color;
+    color: $light-color;
     &:hover {
-      color: $text-color;
+      color: $light-color;
     }
   }
 }
-
-/*#pageMain {
-  min-height: 430px;
-  margin-bottom: 5px;
+#leftMenuDefi {
+  @include white-background;
+  max-height: 640px;
 }
-#navMenuSection {
-  margin-left: 30px;
-  min-height: 420px;
-  padding: 20px 10px 0px 10px;
-  @include background-style;
-  
-  .navMenuSectionTitle {
-    text-align: center;
-  }
-  
-  .navMenuSectionSubTitle {
-    padding-top: 10px;
-    padding-left: 10px;
-  }
+#rightMenuDefi {
+  @include grey-background;
+  max-height: 640px;
+  overflow: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
-#principalSelection {
-  margin-left: 50px;
-  padding: 20px 10px 15px 25px;
-  @include background-style;
-}
-#extraContent {
-  margin-left: 50px;
-  padding: 20px 15px 15px 20px;
-  @include background-style;
-  width: auto;
-}
-.btn-secondary {
-  background-color: inherit;
-  border: none;
-  padding-top: 1rem;
-
-  &:hover {
-    background-color: inherit;
-    @include scale;
+.navMenuDefi, .optionsDefi {
+  a {
+    color: $dark-color;
+    &:hover {
+      color: $dark-color;
+    }
   }
 }
-.dropdown-menu {
-  border-radius: 1rem;
-
-  &:hover {
-    @include scale-extra;
-  }
-}
-.dropdown-item {
-  border-radius: 1rem;
-
-  &:hover {
-    @include scale-extra;
-  }  
-}
-#footer-pages {
-  margin-top: 0px !important;
-  margin-bottom: 0px !important;
-  padding-top: 0px !important;
-  padding-bottom: 0px !important;
-}*/

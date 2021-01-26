@@ -4,7 +4,7 @@
 }
 #contactForm {
   padding: 1rem 2.5rem 0.2rem 2.5rem;
-  @include background-style;
+  //@extend background-style;
   font-weight: bolder;
   width: auto;
   margin: auto;

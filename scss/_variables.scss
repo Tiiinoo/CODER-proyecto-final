@@ -1,38 +1,31 @@
-$blockchain-image: linear-gradient(
-  rgba(0, 0, 0, 0.4),
-  rgba(0, 0, 0, 0.6)), 
-  url(../images/blockchainBackground2.jpeg);
-$backgroud-white: #ffffff;
-$background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
-$background-grey-color: #292929;
+$backgroud-white-color: #ffffff;
+$background-grey-color: #030709;
 $backgroud-red-color: #f7484e;
+$background-black-gradient: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
 
-$text-color: #ffffff;
+$light-color: #ffffff;
 $dark-color: #292929;
+
 $general-font: 'Roboto', sans-serif;
 $titles-font: 'Libre Baskerville', serif;
 $menus-font: 'Lato', sans-serif;
 
 @mixin grey-background {
   background-color: $background-grey-color;
-  color: $text-color;
+  color: $light-color;
 }
 @mixin red-background {
   background-color: $backgroud-red-color;
-  color: $text-color;
+  color: $light-color;
 }
 @mixin white-background {
-  background-color: $backgroud-white;
+  background-color: $backgroud-white-color;
   color: $dark-color;
 }
 @mixin scale {
   transform: scale(1.1);
   text-decoration: none;
-  color: $text-color;
-}
-@mixin background-style {
-  border-radius: 1rem;
-  background-image: $background-color;  
+  color: $light-color
 }
 @mixin options-background {
   border-radius: 50%;
