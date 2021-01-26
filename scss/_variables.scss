@@ -11,10 +11,14 @@ $general-font: 'Roboto', sans-serif;
 $titles-font: 'Libre Baskerville', serif;
 $menus-font: 'Lato', sans-serif;
 
+@mixin grey-background {
+  background-color: $background-grey-color;
+  text-color: $text-color;
+}
 @mixin scale {
   transform: scale(1.1);
   text-decoration: none;
-  color: $text-color; 
+  color: $text-color;
 }
 
 @mixin background-style {
