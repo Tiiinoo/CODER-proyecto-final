@@ -1,0 +1,15 @@
+/* ESTILOS EXCLUSIVOS SECTION ABOUT ME*/
+#aboutMe {
+  @include red-background;
+}
+#aboutTitle{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.navMenuAbout {
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+.aboutText {
+  padding-top: 10px;
+}

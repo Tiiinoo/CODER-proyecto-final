@@ -5,6 +5,7 @@ $blockchain-image: linear-gradient(
 $back-white: #ffffff;
 $background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
 $background-grey-color: #292929;
+$backgroud-red-color: #f7484e;
 $text-color: #ffffff;
 $extra-color: #000000;
 $general-font: 'Roboto', sans-serif;
@@ -15,12 +16,15 @@ $menus-font: 'Lato', sans-serif;
   background-color: $background-grey-color;
   text-color: $text-color;
 }
+@mixin red-background {
+  background-color: $backgroud-red-color;
+  text-color: $text-color;
+}
 @mixin scale {
   transform: scale(1.1);
   text-decoration: none;
   color: $text-color;
 }
-
 @mixin background-style {
   border-radius: 1rem;
   background-image: $background-color;  
@@ -31,7 +35,6 @@ $menus-font: 'Lato', sans-serif;
   box-shadow: inset 5px 5px 16px #a69f9f,
               inset -5px -5px 16px #ffffff;
 }
-
 @mixin scale-extra {
   transform: scale(1.1);
   text-decoration: none;
