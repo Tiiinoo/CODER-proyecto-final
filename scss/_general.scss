@@ -3,9 +3,7 @@
   padding: 0px;
 }
 body {
-    background-image: $blockchain-image;
-    background-color: $background-color;
-    background-position: center center;
+    background-color: $background-grey-color;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;  
@@ -24,6 +22,10 @@ h1 {
 }
 #indexHeader {
   margin-top: 30px;
+}
+.homeImage {
+  width: auto;
+  height: auto;
 }
 a {
   text-decoration: none;
