@@ -1,4 +1,57 @@
-#pageMain {
+#leftMenuTecnologia {
+  @include white-background;
+  max-height: 640px;
+}
+
+#rightMenuTecnologia {
+  @include grey-background;
+  max-height: 640px;
+  overflow: auto;
+}
+.navMenuTecnologia,.optionsTecnologia{
+  a {
+  color: $dark-color;
+  &:hover {
+    color: $dark-color;
+  }
+  }
+}
+#leftMenuBlockchain {
+  @include grey-background;
+  max-height: 640px;
+}
+#rightMenuBlockchain {
+  @include red-background;
+  max-height: 640px;
+  overflow: auto;
+}
+.navMenuBlockchain,.optionsBlockchain{
+  a {
+  color: $text-color;
+    &:hover {
+      color: $text-color;
+    }
+  }
+}
+#leftMenuAplicaciones {
+  @include red-background;
+  max-height: 640px;
+}
+#rightMenuAplicaciones {
+  @include white-background;
+  max-height: 640px;
+  overflow: auto;
+}
+.navMenuAplicaciones, .optionsAplicaciones{
+  a {
+    color: $text-color;
+    &:hover {
+      color: $text-color;
+    }
+  }
+}
+
+/*#pageMain {
   min-height: 430px;
   margin-bottom: 5px;
 }
@@ -57,4 +110,4 @@
   margin-bottom: 0px !important;
   padding-top: 0px !important;
   padding-bottom: 0px !important;
-}
+}*/

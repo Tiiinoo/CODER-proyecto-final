@@ -3,7 +3,6 @@
   padding: 0px;
 }
 body {
-  color: $text-color;
   font-family: $general-font;
 }
 #indexHeader {
@@ -13,6 +12,7 @@ body {
   p {
   margin-top: 1rem;
   font-weight: bolder;
+  color: $text-color;
   }
 }
 #home {
@@ -26,6 +26,7 @@ body {
   a {
     font-weight: bolder;
     text-decoration: none;
+    color: $text-color;
   }
 }
 h1 {
@@ -36,10 +37,11 @@ h1 {
   padding: 10px;
   display: none; 
 }
-
+::-webkit-scrollbar {
+  display: none;
+}
 a {
   text-decoration: none;
-  color: $text-color;
 }
 .nav-link:hover {
   @include scale;  

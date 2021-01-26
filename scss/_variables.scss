@@ -2,23 +2,28 @@ $blockchain-image: linear-gradient(
   rgba(0, 0, 0, 0.4),
   rgba(0, 0, 0, 0.6)), 
   url(../images/blockchainBackground2.jpeg);
-$back-white: #ffffff;
+$backgroud-white: #ffffff;
 $background-color: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
 $background-grey-color: #292929;
 $backgroud-red-color: #f7484e;
+
 $text-color: #ffffff;
-$extra-color: #000000;
+$dark-color: #292929;
 $general-font: 'Roboto', sans-serif;
 $titles-font: 'Libre Baskerville', serif;
 $menus-font: 'Lato', sans-serif;
 
 @mixin grey-background {
   background-color: $background-grey-color;
-  text-color: $text-color;
+  color: $text-color;
 }
 @mixin red-background {
   background-color: $backgroud-red-color;
-  text-color: $text-color;
+  color: $text-color;
+}
+@mixin white-background {
+  background-color: $backgroud-white;
+  color: $dark-color;
 }
 @mixin scale {
   transform: scale(1.1);
@@ -38,5 +43,5 @@ $menus-font: 'Lato', sans-serif;
 @mixin scale-extra {
   transform: scale(1.1);
   text-decoration: none;
-  color: $extra-color; 
+  color: $dark-color; 
 }
