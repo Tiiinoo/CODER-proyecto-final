@@ -38,12 +38,17 @@ a {
 .nav-link:hover {
   @include scale;  
 }
-footer {
+#footer {
+  @include red-background;
   color: $light-color;
   padding: 5px 0px 0px 0px;
   font-size: 1rem;
   text-align: center;
-  a:hover {
-    @include scale;
-  }
+    a {
+      color: $light-color;
+      &:hover {
+        @include scale;
+      }
+    }
+      
 }

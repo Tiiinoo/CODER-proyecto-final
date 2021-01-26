@@ -1,3 +1,7 @@
+#contacto {
+  @include red-background;
+  color: $light-color;
+}
 #contactMain {
   display: flex;
 }
@@ -30,16 +34,17 @@
 }
   #userMail, #userCrypto, #userMessage {
     display: block;
-    width: 100%;
+    width: 75%;
     color: #808080;
     font-weight: bolder;
+    align-items: center;
     font-size: 1rem;
     @media only screen and (max-width: 576px) {
       font-size: 0.8rem;
     }
   }
   #userMessage {
-    width: 100%;
+    width: 75%;
     height: auto;
     font-size: 1.2rem;
     @media only screen and (min-width: 577px) and (max-width: 768px) {
@@ -85,5 +90,5 @@
     transform: scale(0.9);
   }
   #sendMessage:hover {
-    transform: scale(1.1);
+      transform: scale(1.1);
   }
