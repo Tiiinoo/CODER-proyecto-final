@@ -668,33 +668,67 @@
           </div>  
         </div>
       </div>
-      <div class="container" id="contacto">
+      <div class="container-fluid" id="contacto">
         <div class="row">
-          <div id="contactMain" class="col-lg-8 offset-lg-2">
-            <form name="my-form" action="mensajeEnviado.html" target="_self" method="post" 
-              enctype="multipart/form-data" id="contactForm">
-              <h4>¿Todavía tenés dudas? Contactanos.</h4>
-              <label for="userName">Nombre</label>
-              <input type="text" id="userName" name="userName" placeholder="¿Cuál es tu nombre?">
-              <label for="userMail">Correo</label>
-              <input type="text" id="userMail" name="userMail" placeholder="¿Cuál es tu correo?">
-              <label for="userCrypto">Blockchain</label>
-              <select id="userCrypto" name="userCrypto">
-                <option value="0">Seleccione una blockchain</option>
-                <option value="btc">Bitcoin</option>
-                <option value="eth">Ethereum</option>
-                <option value="ada">Cardano</option>
-                <option value="dot">Polkadot</option>
-                <option value="otra">Otra blockchain</option>
-              </select>
-              <label for="newsletter">¿Te interesa recibir nuestro Newsletter semanal?</label>
-              <input type="checkbox" id="newsletter" name="newsletter">
-              <label for="userMessage" id="labelMessage">Mensaje</label>
-              <textarea name="userMessage" id="userMessage" rows="6" cols="34" 
-              placeholder="Escribí tu consulta"></textarea>
-              <button id="deleteMessage" type="reset">Borrar mensaje</button>
-              <button id="sendMessage" type="submit">Enviar mensaje</button>
-            </form>
+          <div class="col-lg-5" id="leftMenuContacto">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="col-lg-8 offset-lg-2">
+                  <h3>Contacto</h3>
+                </div>
+              </div>
+            </div>  
+            <div class="row">
+              <nav class="col-lg-10 offset-md-1 navMenuContacto">          
+                <ul class="nav justify-content-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#header">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aboutMe">About me</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#tecnologia">Tecnología</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blockchain">Blockchain</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#aplicaciones">Aplicaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#defi">DeFi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>                              
+              </nav>
+            </div>
+          </div>
+          <div id="contactMain" class="col-lg-7">
+            <div class="col-lg-10 offset-lg-1">  
+              <form name="my-form" action="mensajeEnviado.html" target="_self" method="post" 
+                enctype="multipart/form-data" id="contactForm">
+                <h4>¿Todavía tenés dudas? Contactanos.</h4>
+                <label for="userMail"></label>
+                <input type="text" id="userMail" name="userMail" placeholder="Dejanos tu correo">
+                <label for="userCrypto"></label>
+                <select id="userCrypto" name="userCrypto">
+                  <option value="0">Seleccione una blockchain</option>
+                  <option value="btc">Bitcoin</option>
+                  <option value="eth">Ethereum</option>
+                  <option value="ada">Cardano</option>
+                  <option value="dot">Polkadot</option>
+                  <option value="otra">Otra blockchain</option>
+                </select>
+                <label for="userMessage" id="labelMessage"></label>
+                <textarea name="userMessage" id="userMessage" rows="6" cols="34" 
+                placeholder="Escribí tu mensaje"></textarea>
+                <button id="deleteMessage" type="reset">Borrar mensaje</button>
+                <button id="sendMessage" type="submit">Enviar mensaje</button>
+              </form>
+            </div>  
           </div>
         </div>  
       </div>
