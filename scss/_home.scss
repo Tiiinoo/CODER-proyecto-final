@@ -5,6 +5,7 @@
 body {
   font-family: $general-font;
   @media only screen and (max-width: 576px) {
+    
     overflow-x: hidden;
   }
 }
@@ -13,9 +14,13 @@ body {
   padding-top: 35px;
   padding-bottom: 35px;
   p {
-  margin-top: 1rem;
+  margin-top: 15px;
   font-weight: bolder;
   color: $light-color;
+  border-radius: 68px;
+  background: linear-gradient(145deg, #03070a, #030608);
+  box-shadow:  5px 5px 0px #010304,
+             -5px -5px 0px #050b0e;
   }
 }
 #home {
@@ -26,6 +31,10 @@ body {
 }
 .navMenuHome {
   margin-bottom: 40px;
+  border-radius: 68px;
+  background: linear-gradient(145deg, #03070a, #030608);
+  box-shadow:  5px 5px 0px #010304,
+             -5px -5px 0px #050b0e;
   a {
     font-weight: bolder;
     text-decoration: none;
@@ -48,11 +57,17 @@ a {
   @include grey-background;
   font-size: 1rem;
   text-align: center;
+  padding-bottom: 10px;
     a {
       color: $light-color;
       &:hover {
         @include scale;
       }
     }
-      
+}
+.footerText {
+  border-radius: 68px;
+  background: linear-gradient(145deg, #03070a, #030608);
+  box-shadow:  5px 5px 0px #010304,
+             -5px -5px 0px #050b0e;
 }
