@@ -7,8 +7,7 @@ $light-color: #ffffff;
 $dark-color: #292929;
 
 $general-font: 'Roboto', sans-serif;
-$titles-font: 'Libre Baskerville', serif;
-$menus-font: 'Lato', sans-serif;
+$titles-font: 'Playfair Display', serif;
 
 @mixin grey-background {
   background-color: $background-grey-color;
@@ -26,12 +25,6 @@ $menus-font: 'Lato', sans-serif;
   transform: scale(1.1);
   text-decoration: none;
   color: $light-color
-}
-@mixin options-background {
-  border-radius: 50%;
-  background: transparent;
-  box-shadow: inset 5px 5px 16px #a69f9f,
-              inset -5px -5px 16px #ffffff;
 }
 @mixin scale-extra {
   transform: scale(1.1);

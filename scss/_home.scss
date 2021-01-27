@@ -9,10 +9,13 @@ body {
     overflow-x: hidden;
   }
 }
+h1, h2, h3, h4, h5, h6 {
+  font-family: $titles-font;
+}
 #indexHeader {
   @include grey-background;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding-top: 25px;
+  padding-bottom: 25px;
   p {
   margin-top: 15px;
   font-weight: bolder;
