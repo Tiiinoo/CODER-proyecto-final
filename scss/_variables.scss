@@ -26,11 +26,6 @@ $titles-font: 'Playfair Display', serif;
   text-decoration: none;
   color: $light-color
 }
-@mixin scale-extra {
-  transform: scale(1.1);
-  text-decoration: none;
-  color: $dark-color; 
-}
 @mixin list-style{
   list-style-type: none;
   color: $light-color;

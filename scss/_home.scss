@@ -60,13 +60,7 @@ a {
   @include grey-background;
   font-size: 1rem;
   text-align: center;
-  padding-bottom: 10px;
-    a {
-      color: $light-color;
-      &:hover {
-        @include scale;
-      }
-    }
+  padding-bottom: 20px;
 }
 .footerText {
   border-radius: 68px;
