@@ -1,6 +1,5 @@
 #contacto {
-  @include red-background;
-  color: $light-color;
+  @include grey-background;
 }
 #contactMain {
   display: flex;

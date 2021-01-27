@@ -32,6 +32,9 @@ body {
 h1 {
   display: none;
 }
+h2 {
+  text-align: center;
+}
 a {
   text-decoration: none;
 }
@@ -39,8 +42,7 @@ a {
   @include scale;  
 }
 #footer {
-  @include red-background;
-  color: $light-color;
+  @include grey-background;
   font-size: 1rem;
   text-align: center;
     a {

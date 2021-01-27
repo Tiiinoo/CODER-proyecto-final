@@ -1,0 +1,61 @@
+#extraContent {
+  @include red-background;
+}
+#extraContentTitleRow {
+  justify-content: center;
+}
+#extraContentDivs {
+  padding-bottom: 15px;
+  text-align: -webkit-center;
+}
+#extraContentTitleDiv {
+  @include titles-style;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ff4d53, #de4146);
+  box-shadow:  5px 5px 9px #af3337,
+             -5px -5px 9px #ff5d65;
+}
+.divExtraContentTitle{
+  width: fit-content;
+  margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ff4d53, #de4146);
+  box-shadow:  5px 5px 9px #af3337,
+             -5px -5px 9px #ff5d65;
+}
+.divExtraCard{
+  justify-content: center;
+  width: max-content;
+  height: max-content;
+  margin-bottom: 25px;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ff4d53, #de4146);
+  box-shadow:  5px 5px 9px #af3337,
+             -5px -5px 9px #ff5d65;
+}
+.divExtraContentList {
+  text-align: -webkit-center;
+}
+.divExtraContentItem {
+  @include list-style;
+  text-align: center;
+    a {
+      text-decoration: none;
+      color: $light-color;
+    }
+}
+.navMenuExtraContent {
+  @include options-orange-menu;
+    .nav-item{
+      font-weight: bold;
+    }
+    a {
+    color:$light-color;
+    }
+}

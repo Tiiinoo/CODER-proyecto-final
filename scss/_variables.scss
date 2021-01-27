@@ -38,3 +38,26 @@ $menus-font: 'Lato', sans-serif;
   text-decoration: none;
   color: $dark-color; 
 }
+@mixin list-style{
+  list-style-type: none;
+  color: $light-color;
+  padding-top: 3px;
+  margin-top: 2px;
+  border-radius: 68px;
+  background: #f7484e;
+  box-shadow: inset 5px 5px 10px #cf3c42, inset -5px -5px 10px #ff545a;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@mixin options-orange-menu {
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ff4d53, #de4146);
+  box-shadow:  5px 5px 9px #af3337,
+              -5px -5px 9px #ff5d65;
+}
+@mixin titles-style {
+  margin-top: 5px;
+  margin-bottom: 35px;
+  text-align: center;
+}
