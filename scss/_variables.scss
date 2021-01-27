@@ -50,6 +50,14 @@ $menus-font: 'Lato', sans-serif;
   padding-left: 10px;
   padding-right: 10px;
 }
+@mixin paragraph-style {
+  border-radius: 68px;
+  background: #f7484e;
+  box-shadow: inset 5px 5px 10px #cf3c42, inset -5px -5px 10px #ff545a;
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 @mixin options-orange-menu {
   border-radius: 50px;
   background: linear-gradient(145deg, #ff4d53, #de4146);
