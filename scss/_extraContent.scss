@@ -17,6 +17,12 @@
   background: linear-gradient(145deg, #ff4d53, #de4146);
   box-shadow:  5px 5px 9px #af3337,
              -5px -5px 9px #ff5d65;
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    margin-top: 35px;
+  }
+  @media only screen and (max-width: 576px) {
+    margin-top: 35px;
+  }
 }
 .divExtraContentTitle{
   width: fit-content;
@@ -57,5 +63,11 @@
     }
     a {
     color:$light-color;
+    }
+    @media only screen and (min-width: 577px) and (max-width: 768px) {
+      display: none;
+    }
+    @media only screen and (max-width: 576px) {
+      display: none;
     }
 }
