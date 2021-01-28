@@ -14,7 +14,24 @@
     color: $light-color;
   }
 }
-.contactmaintitlecontainer, .contactInformationContainer {
+.contactmaintitlecontainer {
   text-align: -webkit-center;
 }
-
+.contactInformationContainer {
+  text-align: -webkit-center;
+  padding-bottom: 45px;
+  a:hover {
+    text-decoration: none;
+    color: $light-color;
+  }
+}
+.iconsContainer {
+  margin-top: 10px;
+}
+.icons {
+  color: $light-color;
+  font-size: 35px;
+  padding: 15px 15px;
+  text-decoration: none;
+  @include options-black-menu;
+}

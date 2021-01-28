@@ -26,8 +26,17 @@ h1, h2, h3, h4, h5, h6 {
 #home {
   @include grey-background;
 }
-.homeImage {
+.homeImageContainer {
   margin-bottom: 35px;
+  
+}
+.homeImage {
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    max-width: 98%;
+  }
+  @media only screen and (max-width: 576px) {
+    max-width: 98%;
+  }
 }
 .navMenuHome {
   margin-bottom: 40px;
@@ -37,6 +46,12 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     color: $light-color;
   }
+}
+.navbar-expand-lg {
+  justify-content: space-evenly;
+}
+.navbar-collapse {
+  flex-grow: initial;
 }
 h1 {
   display: none;
@@ -48,7 +63,19 @@ a {
   text-decoration: none;
 }
 .nav-link:hover {
-  @include scale;  
+  @include scale; 
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    transform: none;
+    align-text: center !important;
+  }
+  @media only screen and (max-width: 576px) {
+    transform: none;
+    aling-text: center !important;
+  }
+}
+.navbar-nav .nav-link {
+  padding-right: 0;
+  padding-left: 60px !important;
 }
 #footer {
   @include grey-background;
