@@ -58,6 +58,12 @@ $titles-font: 'Playfair Display', serif;
   box-shadow:  5px 5px 0px #010304,
              -5px -5px 0px #050b0e;
 }
+@mixin options-white-menu {
+  border-radius: 50px;
+  background: #ffffff;
+  box-shadow:  9px 9px 18px #c2c2c2,
+             -9px -9px 18px #ffffff;
+}
 @mixin titles-style {
   margin-top: 25px;
   margin-bottom: 25px;
