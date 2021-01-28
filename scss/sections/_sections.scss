@@ -1,8 +1,7 @@
-#leftMenuTecnologia {
-  @include white-background;
+#leftMenuBlockchain {
+  @include grey-background;
   max-height: 640px;
 }
-
 #rightMenuTecnologia {
   @include grey-background;
   max-height: 640px;
@@ -12,18 +11,6 @@
     &::-webkit-scrollbar {
       display: none;
     }
-}
-.navMenuTecnologia,.optionsTecnologia{
-  a {
-  color: $dark-color;
-  &:hover {
-    color: $dark-color;
-    }
-  }
-}
-#leftMenuBlockchain {
-  @include grey-background;
-  max-height: 640px;
 }
 #rightMenuBlockchain {
   @include red-background;
@@ -35,7 +22,7 @@
       display: none;
     }
 }
-.navMenuBlockchain,.optionsBlockchain{
+.navMenuBlockchain,.optionsBlockchain, .optionsTecnologia{
   a {
   color: $light-color;
     &:hover {
@@ -43,28 +30,7 @@
     }
   }
 }
-#leftMenuAplicaciones {
-  @include red-background;
-  max-height: 640px;
-}
-#rightMenuAplicaciones {
-  @include white-background;
-  max-height: 640px;
-  overflow: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
-    &::-webkit-scrollbar {
-      display: none;
-    }
-}
-.navMenuAplicaciones, .optionsAplicaciones{
-  a {
-    color: $light-color;
-    &:hover {
-      color: $light-color;
-    }
-  }
-}
+
 #leftMenuDefi {
   @include white-background;
   max-height: 640px;
@@ -79,7 +45,17 @@
       display: none;
     }
 }
-.navMenuDefi, .optionsDefi {
+#rightMenuAplicaciones {
+  @include white-background;
+  max-height: 640px;
+  overflow: auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+}
+.navMenuDefi, .optionsDefi, .optionsAplicaciones {
   a {
     color: $dark-color;
     &:hover {
